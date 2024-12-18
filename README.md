@@ -1,6 +1,6 @@
 ## All About JavaScript Analysis For Bug Bounty Hunting
 
-
+```cmd
  1. subfinder -dL target.txt -all -recursive -o Subs01.txt
  2. subenum -l target.txt -u wayback,crt,abuseipdb,bufferover,Findomain,Subfinder,Amass,Assetfinder -o Subs02.txt
  3. cat Subs*.txt | anew | tee AllSubs.txt
