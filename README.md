@@ -37,6 +37,9 @@ find javascript file from BURPSUITE | tee js03.txt
 cat js*.txt | uro | tee js.txt
 ```
 ```sql
+grep -r -E "aws_access_key|aws_secret_key|api key|passwd|pwd|heroku|slack|firebase|swagger|aws_secret_key|aws key|password|ftp password|jdbc|db|sql|secret jet|config|admin|pwd|json|gcp|htaccess|.env|ssh key|.git|access key|secret token|http://1|http://2|http://3|http://4|http://5|http://6|http://7|http://8|http://9|oauth_token|oauth_token_secret" js.txt
+```
+```sql
 jshunter -l js.txt -t 10 | tee -a jshunteroutput.txt [Edit js hunter tool with new regex] [https://github.com/KaioGomesx/JSScanner/blob/main/regex.txt]
 ```
 ```sql
