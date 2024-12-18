@@ -56,3 +56,9 @@ filepicker_key api docs curl
 ```powershell
 httpx -l AliveSubs.txt -p 66,80,81,443,445,457,1080,1100,1241,1352,1433,1434,1521,1944,2301,3000,3128,3306,4000,4001,4002,4100,5000,5432,5800,5801,5802,6346,6347,7001,7002,8000,8080,8443,8888,30821 -fr -x GET,POST -t 200 -rl 500 -timeout 5 -retries 1 -stats -o portfuzzing-results.txt
 ```
+```sql
+python3 /home/nazmul/subowner/subowner.py -f AllSubs.txt -t 20
+```
+```sql
+subzy run --targets AllSubs.txt --vuln --output subzy.txt
+```
