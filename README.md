@@ -40,6 +40,9 @@ cat js*.txt | uro | tee js.txt
 grep -r -E "aws_access_key|aws_secret_key|api key|passwd|pwd|heroku|slack|firebase|swagger|aws_secret_key|aws key|password|ftp password|jdbc|db|sql|secret jet|config|admin|pwd|json|gcp|htaccess|.env|ssh key|.git|access key|secret token|http://1|http://2|http://3|http://4|http://5|http://6|http://7|http://8|http://9|oauth_token|oauth_token_secret" js.txt
 ```
 ```sql
+https://github.com/streaak/keyhacks
+```
+```sql
 jshunter -l js.txt -t 10 | tee -a jshunteroutput.txt [Edit js hunter tool with new regex] [https://github.com/KaioGomesx/JSScanner/blob/main/regex.txt]
 ```
 ```sql
@@ -47,4 +50,9 @@ nuclei -l js -t /home/nazmul/nuclei-templates/http/exposures -stats -j -o nuclei
 ```
 ```sql
 filepicker_key api docs curl
+```
+<hr>
+
+```powershell
+httpx -l AliveSubs.txt -p 66,80,81,443,445,457,1080,1100,1241,1352,1433,1434,1521,1944,2301,3000,3128,3306,4000,4001,4002,4100,5000,5432,5800,5801,5802,6346,6347,7001,7002,8000,8080,8443,8888,30821 -fr -x GET,POST -t 200 -rl 500 -timeout 5 -retries 1 -stats -o portfuzzing-results.txt
 ```
