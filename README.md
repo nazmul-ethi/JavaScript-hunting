@@ -62,3 +62,18 @@ python3 /home/nazmul/subowner/subowner.py -f AllSubs.txt -t 20
 ```sql
 subzy run --targets AllSubs.txt --vuln --output subzy.txt
 ```
+
+```
+admin:admin
+admin:password
+user:password
+demo:demo
+demo:password
+admin:demo
+test:test
+password:welcome123
+guest:guest
+Password: Welcome123
+admin@admin.com:admin@admin.com
+example@gmail.com:example@gmail.com
+```
